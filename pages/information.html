@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wendy | Information</title>
+  <link rel="icon" href="../wendy.png">
+  <link rel="stylesheet" href="information.css">
+  <link rel="stylesheet" href="../index.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,600,700,800,900&display=swap" rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700,800,900&display=swap" rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,600,700,800,900&display=swap" rel="stylesheet">
+</head>
+
+<body onload="loaderFunction()">
+
+  <div id="loader">
+    <div class="loading">
+      <span></span>
+    </div>
+  </div>
+
+
+  <div id="page">
+    <nav>
+      <div class="logo noselect">
+        <img class="noselect" src="../wendy2.png"> Information
+      </div>
+
+      <div class="openMenu noselect"><i class="fa fa-bars"></i></div>
+      <ul class="mainMenu noselect">
+        <li><a href="../index.html"><i class="fas fa-home"></i> Home</a></li>
+        <li><a class="active" href="#"><i class="fa fa-thin fa-user"></i> Information</a></li>
+        <li><a href="https://discord.gg/KTFnaXmg9z" target="_none"><i class="fa fa-solid fa-gamepad"></i> Apsara
+            Network</a></li>
+        <li><a class="invitei noselect" href="https://discord.com/users/707160234841473057" target="_none"><i
+              class="fab fa-discord"></i> Discord Profile</a></li>
+        <div class="closeMenu noselect"><i class="fa fa-times"></i></div>
+      </ul>
+    </nav>
+
+
+
+    <div class="container clear noselect">
+      <div class="row wrapper">
+
+        <span class="collapse" onclick="closeSidePanel()"><i class="fas fa-caret-left"></i></span>
+        <span class="expand" onclick="openSidePanel()"><i class="fas fa-caret-right"></i></span>
+
+        <div class="sidepanel">
+          <div class="divider left"></div>
+
+          <a class="title">Introduction</a>
+
+          <a class="section">About me</a>
+
+          <div class="divider left"></div>
+
+          <a class="title">Social Media</a>
+
+          <a class="section" href="https://www.facebook.com/profile.php?id=100043042089253" target="_none"> Facebook</a>
+          <a class="section" href="https://www.youtube.com/@wendygoat" target="_none">Youtube</a>
+          <a class="section" href="https://www.tiktok.com/@wendygoat" target="_none">Tiktok</a>
+
+          <div class="divider left"></div>
+
+
+
+          <div class="space double"></div>
+
+        </div>
+
+        <div class="right-col">
+
+          <h1>About Me</h1>
+
+          <p>Hello! My name is Wendy (He/Him), A founder of Apsara Network. I've been developing minecraft server since
+            2019.
+            <br>
+            I'm currently learning JavaScript & HTML in the hopes to add to my collection of known languages.
+            <br>
+            You can visit my social media below.
+          </p>
+
+          <div class="divider" style="width:24%; margin:30px 0;"></div>
+
+          <h1>About Apsara Network</h1>
+
+          <p> A minecraft server that related to cambodian culture, our server currently online. join our discord to
+            learn more!</p>
+
+          <a href="https://discord.gg/KTFnaXmg9z">
+            <iframe src="https://discord.com/widget?id=930520991724081162&theme=dark" width="350" height="500"
+              allowtransparency="true" frameborder="0"
+              sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+          </a>
+
+          <div class="divider" style="width:24%; margin:30px 0;"></div>
+
+          <h1>Social Media</h1>
+
+          <li><a class="active" href="https://www.facebook.com/profile.php?id=100043042089253"> Facebook</a></li>
+          <li><a class="active" href="https://www.youtube.com/@wendygoat"> Youtube</a></li>
+          <li><a class="active" href="https://www.tiktok.com/@wendygoat"> Tiktok</a></li>
+          </br>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="../index.js"></script>
+  <script src="./information.js"></script>
+</body>
+
+</html>
